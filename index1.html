@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Kashyap Official</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: darkgray;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .a{
+            max-width: 550px;
+            margin: auto;
+            padding: 10px ;
+            border: 2px solid blue;
+            border-radius: 5px;
+            box-shadow: 0 0 9px rgba(0, 0, 0.1, 0.1);
+            
+        }
+        .logo{
+            position: relative;
+        }
+        
+        .image {
+            width: 100px;
+            height: 100px;
+            border-radius: 2px;
+            margin: 20px auto;
+        }
+        
+        .registration-form {
+            margin-top: 40px;
+        }
+        .mail {
+
+
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+        .social-links {
+            margin: 5% 55% 5% 45%;
+            position: initial;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="a">
+            <div class="Logo">
+            <img class="image" src="ACTlogowpai.jpg" alt="Aditya Kashyap"></div>
+            <h1>AdityaCompTech ("Simplifying Complexity"
+            )</h1>
+        <h2>Registerk yourself, and emjoy tech journey</h2>
+        </div> -->
+        
+        <h3>Registration Form</h3>
+        <form class="registration-form" action="connect.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="gender">Gender</label>
+            <label for="male" class="radio-inlin">
+            <input type="radio" name="gender" value="m" id="male">Male</label>
+            <label for="female" class="radio-inlin"><input type="radio" name="gender" value="f" id="female">Female
+            </label>
+            <label for="other" class="radio-inlin"><input type="radio" name="gender" value="o" id="other">Others
+            </label>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            
+            <label for="education">Education:</label>
+            <input type="text" id="education" name="education" required>
+            
+            <button type="submit">Register</button>
+            
+        </form>
+    </div>
+    
+    <div class="social-links"><input id="input" class="truncate" type="search" autocomplete="off" spellcheck="false" role="combobox"
+        aria-controls="matches" aria-expanded="false" aria-live="polite" placeholder="Search Google or type a URL">
+        <!-- Instagram Link -->
+        <a href="https://www.instagram.com/adityacomp.tech/" target="_blank">
+        <img src="images.jpeg" alt="Instagram Logo" height=20px; width=20px;>
+        AdityaCompTech
+        </a>
+        
+        <!-- Gmail Link -->
+        <a href="mailto:adityacomptech0@gmail.com" target="_blank">
+        <img src="Gmail.png" alt="Gmail Logo" height="20px" width="20px">
+        adityacomptech0@gmail.com
+        </a>
+            
+        <!-- YouTube Link -->
+        <a href="https://www.youtube.com/@AdityaCompTech" target="_blank">
+        <img src="yt.jpg" alt="YouTube Logo" height="20px" width="40px">
+        AdityaComptech
+        </a>
+    </div>
+    <div class="social-links">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/adityacomp.tech/" target="_blank">
+              <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+          </li>
+          <li>
+            <a href="mailto:your_email_address@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i> Gmail
+            </a>
+          </li>
+          <li>
+            <a href="(link unavailable)" target="_blank">
+              <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+          </li>
+          <li>
+            <a href="(link unavailable)" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+</body>
+</html>
